@@ -45,23 +45,20 @@
         <form action="" method="post">
             <!--email form-->
             <label class="standard-label" for="contact-email">E-mail: </label>
-            <input type="email" id="contact-email" required>
-            
+            <input type="email" id="contact-email" required> <span class="mandatory">*Mandatory</span> 
+            <br><br>
             <!--telephone form>-->
             <label class="standand-label" for="contact-telephone">Telephone: </label>
             <input type="tel" id="contact-telephone">
-            
+            <br>
+            <br>
             <!--message / text form-->
-            <label class="standard-label" for="contact-text">Message: </label>
-            <textarea id="contact-text" required></textarea>
-            
+
+            <textarea id="contact-text" cols="40" rows="10" placeholder="Type your message here" required></textarea>
+            <br>
             <input class="form__button" type="submit" value="Send message">
         </form>
 
-        <!--my telephone, email-->
-        Call me: <a href="tel:+4915122064193">+49 1512 2064193</a> <br>
-        <a href="mailto:beatrizsalmazzo@gmail.com">beatrizsalmazzo@gmail.com</a><br>
-        <button type="button"><a href="mailto:beatrizsalmazzo@gmail.com">Contact me</a></button> 
     </main>
 
     <footer class="page-footer">
@@ -69,11 +66,16 @@
         <p>Find me on</p>
     
         <div class="socialmedia-icons">
-          <!-- github icon-->
-          <img src="img/github.svg" alt="Github">
-          
-          <!--linkedin icon-->
-          <img src="img/linkedin.svg" alt="LinkedIn">
+            <!-- github icon-->
+            <a href="https://github.com/beasalmazzo?tab=repositories" target="_blank">
+                <img src="img/github.svg" alt="Github">
+            </a>
+
+            <a href="https://www.linkedin.com/in/beatrizsalmazzo/" target="_blank">
+            <!--linkedin icon-->
+                <img src="img/linkedin.svg" alt="LinkedIn">
+            </a>
+
         </div>
     
       </footer>
