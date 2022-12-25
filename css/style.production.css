@@ -173,10 +173,11 @@ button:hover, button:focus,
   text-align: justify;
   text-justify: inter-character;
   padding: 20px;
+  margin-top: 120px;
 }
 .profile__portrait {
   float: left;
-  width: 250px;
+  width: 280px;
   height: auto;
   margin-right: 40px;
   border-radius: 50%;
@@ -217,11 +218,12 @@ button:hover, button:focus,
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  position: fixed;
   width: 100%;
   padding: 20px;
+  top: 0;
   border-bottom: 1px solid lightgray; /* Attributes describe: thickness, type, color*/
-  /*position:fixed;*/
-  /* background-color: white; position:fixed;    have to check how to leave a blank space underneath*/
+  background-color: white; 
 }
 
 .page-header__item {
@@ -248,17 +250,17 @@ button:hover, button:focus,
 
 .menubar__about-me {
   padding: 20px;
-  top: 0;
+  margin-top: 80px;
 }
 
 .menubar__contact {
   padding: 20px;
-  top: 0;
+  margin-top: 80px;
 }
 
 .menubar__work {
   padding: 20px;
-  top: 0;
+  margin-top: 80px;
 }
 
 /* start grid fallback */

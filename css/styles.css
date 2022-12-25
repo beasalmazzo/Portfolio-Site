@@ -40,7 +40,7 @@ a:focus -- detect keyboard
   --page-header__border-bottom-color: 1px solid lightgray;
 
   --menubar__padding: 20px;
-  --menubar__top: 0;
+  --menubar__top: 80px;
 
   --grid__background-color: lightgrey;
 }
@@ -158,10 +158,11 @@ button:hover, button:focus,
   text-align: justify;
   text-justify: inter-character;
   padding: 20px;
+  margin-top: 120px;
 }
 .profile__portrait {
   float: left;
-  width: 250px;
+  width: 280px;
   height: auto;
   margin-right: 40px;
   border-radius: 50%;
@@ -219,17 +220,17 @@ button:hover, button:focus,
 
 .menubar__about-me {
   padding: var(--menubar__padding);
-  top: var(--menubar__top);
+  margin-top: var(--menubar__top);
 }
 
 .menubar__contact {
   padding: var(--menubar__padding);
-  top: var(--menubar__top);
+  margin-top: var(--menubar__top);
 }
 
 .menubar__work {
   padding: var(--menubar__padding);
-  top: var(--menubar__top);
+  margin-top: var(--menubar__top);
 }
 
 /* start grid fallback */
